@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>داروخانه دکتر عمارتی</title>
+
+<style>
+body{
+margin:0;
+padding:0;
+background:#f5f7fb;
+font-family:tahoma;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+text-align:center;
+direction:rtl;
+}
+
+.box{
+background:white;
+padding:40px 25px;
+border-radius:20px;
+box-shadow:0 5px 25px rgba(0,0,0,.08);
+width:90%;
+max-width:350px;
+}
+
+h1{
+color:#009688;
+margin-bottom:10px;
+font-size:24px;
+}
+
+p{
+color:#555;
+font-size:15px;
+line-height:1.9;
+}
+
+.loader{
+margin:25px auto;
+width:45px;
+height:45px;
+border:5px solid #ddd;
+border-top:5px solid #009688;
+border-radius:50%;
+animation:spin 1s linear infinite;
+}
+
+@keyframes spin{
+100%{transform:rotate(360deg);}
+}
+
+.btn{
+display:inline-block;
+margin-top:15px;
+padding:12px 22px;
+background:#009688;
+color:white;
+text-decoration:none;
+border-radius:12px;
+font-size:15px;
+}
+</style>
+
+<script>
+window.onload = function(){
+
+window.location.href =
+"eitaa://resolve?domain=dremarati_pharmacy";
+
+setTimeout(function(){
+window.location.href =
+"https://eitaa.com/dremarati_pharmacy";
+},1500);
+
+}
+</script>
+
+</head>
+
+<body>
+
+<div class="box">
+
+<h1>داروخانه دکتر عمارتی</h1>
+
+<p>
+در حال انتقال به کانال ایتا...
+</p>
+
+<div class="loader"></div>
+
+<a class="btn"
+href="https://eitaa.com/dremarati_pharmacy">
+ورود دستی به کانال
+</a>
+
+</div>
+
+</body>
+</html>
